@@ -1,3 +1,3 @@
-FROM php:7-alpine 
+FROM php:5.6-alpine 
 
 RUN docker-php-ext-install pdo pdo_mysql mysqli
